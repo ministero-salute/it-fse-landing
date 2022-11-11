@@ -39,9 +39,29 @@
 
 ### Provisioning
 1. [it-fse-prov-be-antivirus-client](https://github.com/ministero-salute/it-fse-prov-be-antivirus-client)
+
+Il microservizio in oggetto ha la responsabilità di invocare il servizio per la scansione degli artefatti utilizzati per generare nuovi certificati.
+
 2. [it-fse-prov-be-ca-client](https://github.com/ministero-salute/it-fse-prov-be-ca-client)
+
+Il microservizio in oggetto ha la responsabilità di invocare il servizio per la generazione/revoca/rinnovo dei certificati necessari all'utilizzo dei servizi esposti dal Gateway.
+
 3. [it-fse-prov-be-notifier](https://github.com/ministero-salute/it-fse-prov-be-notifier)
+
+Il microservizio in oggetto ha la responsabilità di notificare per email all'Attore di interesse il verificarsi di un evento.
+
 4. [it-fse-prov-be-orchestrator](https://github.com/ministero-salute/it-fse-prov-be-orchestrator)
+
+Il microservizio in oggetto ha la responsabilità di orchestrare le richieste emesse dall'Utente verso gli opportuni microservizi in grado di soddisfarle.
+
 5. [it-fse-prov-be-requests](https://github.com/ministero-salute/it-fse-prov-be-requests)
+
+Il microservizio in oggetto ha la responsabilità di gestire le richieste di generazione/revoca/rinnovo di certificati.
+
 6. [it-fse-prov-be-users](https://github.com/ministero-salute/it-fse-prov-be-users)
+
+Il microservizio in oggetto ha la responsabilità di gestire l'organigramma con cui si definiscono i ruoli degli utenti registrati nell'applicativo.
+
 7. [it-fse-prov-fe-react](https://github.com/ministero-salute/it-fse-prov-fe-react)
+
+Il microservizio in oggetto contiene la Single Page Application che rappresenta il front-end del sistema di provisioning.
