@@ -20,10 +20,23 @@
 
 ### Gateway Front-end (microservices and SPA)
 1. [it-fse-monit-be-kpi-reader](https://github.com/ministero-salute/it-fse-monit-be-kpi-reader)
+
+Il microservizio espone una REST API che consente di interrogare i KPI generati.
+
 2. [it-fse-monit-be-kpi-writer](https://github.com/ministero-salute/it-fse-monit-be-kpi-writer)
+
+Il microservizio ha la responsabilità di generare i KPI a partire dai log strutturati e persisterli su database.
+
 3. [it-fse-monit-be-report-reader](https://github.com/ministero-salute/it-fse-monit-be-report-reader)
+
+Il microservizio espone una REST API che consente di recuperare i report generati.
+
 4. [it-fse-monit-be-report-writer](https://github.com/ministero-salute/it-fse-monit-be-report-writer)
+
+Il microservizio ha la responsabilità di generare i report a partire dai KPI e persisterli su database.
+
 5. [it-fse-monit-fe-react](https://github.com/ministero-salute/it-fse-monit-fe-react)
+
 
 ### EDS 
 1. [it-fse-datarepo-data-quality](https://github.com/ministero-salute/it-fse-datarepo-data-quality)
@@ -65,20 +78,3 @@ Il microservizio in oggetto ha la responsabilità di gestire l'organigramma con 
 7. [it-fse-prov-fe-react](https://github.com/ministero-salute/it-fse-prov-fe-react)
 
 Il microservizio in oggetto contiene la Single Page Application che rappresenta il front-end del sistema di provisioning.
-
-### Monitoring
-1. [it-fse-monit-be-kpi-writer](https://github.com/ministero-salute/it-fse-monit-be-kpi-writer)
-
-Il microservizio ha la responsabilità di generare i KPI a partire dai log strutturati e persisterli su database.
-
-2. [it-fse-monit-be-kpi-reader](https://github.com/ministero-salute/it-fse-monit-be-kpi-reader)
-
-Il microservizio esponse una REST API che consente di interrogare i KPI generati.
-
-3. [it-fse-monit-be-report-writer](https://github.com/ministero-salute/it-fse-monit-be-report-writer)
-
-Il microservizio ha la responsabilità di generare i report a partire dai KPI e persisterli su database.
-
-4. [it-fse-monit-be-report-reader](https://github.com/ministero-salute/it-fse-monit-be-report-reader)
-
-Il microservizio esponse una REST API che consente di recuperare i report generati.
