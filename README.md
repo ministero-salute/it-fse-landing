@@ -37,6 +37,7 @@ Il microservizio ha la responsabilità di generare i report a partire dai KPI e 
 
 5. [it-fse-monit-fe-react](https://github.com/ministero-salute/it-fse-monit-fe-react)
 
+Single Page Application che rappresenta il front-end del sistema di monitoraggio.
 
 ### EDS 
 1. [it-fse-datarepo-data-quality](https://github.com/ministero-salute/it-fse-datarepo-data-quality)
@@ -77,4 +78,4 @@ Il microservizio in oggetto ha la responsabilità di gestire l'organigramma con 
 
 7. [it-fse-prov-fe-react](https://github.com/ministero-salute/it-fse-prov-fe-react)
 
-Il microservizio in oggetto contiene la Single Page Application che rappresenta il front-end del sistema di provisioning.
+Single Page Application che rappresenta il front-end del sistema di provisioning.
