@@ -10,7 +10,7 @@ Il microservizio in oggetto ha la responsabilità di gestire e persistere le con
 
 Il microservizio in oggetto ha la responsabilità di esporre al Consumer le API Rest per l'invio, la cancellazione, la sostituzione e l'aggiornamento metadati di un documento clinico.
 
-3. [it-fse-eds-client](https://github.com/ministero-salute/it-fse-gtw-eds-client)
+3. [it-fse-gtw-eds-client](https://github.com/ministero-salute/it-fse-gtw-eds-client)
 
 Il microservizio in oggetto ha la responsabilità di gestire la comunicazione verso l'EDS.
 
