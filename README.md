@@ -14,51 +14,41 @@ Il microservizio in oggetto ha la responsabilità di esporre al Consumer le API 
 
 Il microservizio in oggetto ha la responsabilità di gestire la comunicazione verso l'EDS.
 
-4. [it-fse-gtw-fhir-mapping](https://github.com/ministero-salute/it-fse-gtw-fhir-mapping)
-
-Il microservizio in oggetto ha la responsabilità di effettuare la trasformata di un CDA in un bundle FHIR tramite XSLT.
-
-5. [it-fse-gtw-fhir-mapping-engine](https://github.com/ministero-salute/it-fse-gtw-fhir-mapping-engine)
+4. [it-fse-gtw-fhir-mapping-engine](https://github.com/ministero-salute/it-fse-gtw-fhir-mapping-engine)
 
 Il microservizio in oggetto ha la responsabilità di effettuare la trasformata di un CDA in un bundle FHIR tramite FHIR Mapping Language.
 
-6. [it-fse-gtw-garbage](https://github.com/ministero-salute/it-fse-gtw-garbage)
+5. [it-fse-gtw-garbage](https://github.com/ministero-salute/it-fse-gtw-garbage)
 
 Il microservizio in oggetto ha la responsabilità di gestire la Data Retention su MongoDB, effettuando la pulizia dei record correttamente inviati o obsoleti.
 
-7. [it-fse-gtw-indexer](https://github.com/ministero-salute/it-fse-gtw-indexer)
+6. [it-fse-gtw-indexer](https://github.com/ministero-salute/it-fse-gtw-indexer)
 
 Il microservizio in oggetto ha la responsabilità di richiamare il microservizio it-fse-gtw-ini-client per l'indicizzazione dei documenti su INI e, in caso di successo, richiamare il microservizio it-fse-gtw-publisher.
 
-8. [it-fse-gtw-ini-client](https://github.com/ministero-salute/it-fse-gtw-ini-client)
+7. [it-fse-gtw-ini-client](https://github.com/ministero-salute/it-fse-gtw-ini-client)
 
 Il microservizio in oggetto ha la responsabilità di gestire la comunicazione con INI.
 
-9.  [it-fse-gtw-publisher](https://github.com/ministero-salute/it-fse-gtw-publisher)
+8.  [it-fse-gtw-publisher](https://github.com/ministero-salute/it-fse-gtw-publisher)
 
 Il microservizio in oggetto ha la responsabilità di richiamare il microservizio it-fse-gtw-eds-client per eseguire la pubblicazione su EDS.
 
-10.   [it-fse-gtw-rules-manager](https://github.com/ministero-salute/it-fse-gtw-rules-manager)
+9.   [it-fse-gtw-rules-manager](https://github.com/ministero-salute/it-fse-gtw-rules-manager)
 
 Il microservizio in oggetto ha la responsabilità di recuperare dall'EDS le regole sintattiche, semantiche, terminologiche e di mapping.
 
-11.  [it-fse-gtw-status-check](https://github.com/ministero-salute/it-fse-gtw-status-check)
+10.  [it-fse-gtw-status-check](https://github.com/ministero-salute/it-fse-gtw-status-check)
 
 Il microservizio in oggetto ha la responsabilità di esporre al Consumer le API per verificare lo stato delle validazioni e pubblicazioni effettuate su FSE2.0.
 
-12. [it-fse-gtw-status-manager](https://github.com/ministero-salute/it-fse-gtw-status-manager)
+11. [it-fse-gtw-status-manager](https://github.com/ministero-salute/it-fse-gtw-status-manager)
 
 Il microservizio in oggetto ha la responsabilità di accogliere e salvare i log di stato provenienti dai microservizi del Gateway al fine di permettere ad it-fse-gtw-status-check l'esposizione verso il Consumer.
 
-13.  [it-fse-gtw-validator](https://github.com/ministero-salute/it-fse-gtw-validator) 
+12.  [it-fse-gtw-validator](https://github.com/ministero-salute/it-fse-gtw-validator) 
 
 Il microservizio in oggetto ha la responsabilità di effettuare la validazione sintattica, semantica e terminologica del documento fornito in input.
-
-14. [it-fse-gtw-tools](https://github.com/ministero-salute/it-fse-gtw-tools)
-
-Il microservizio in oggetto contiene i tools di supporto al corretto utilizzo del FSE2.0.
-
-
 
 ### Monitoring
 1. [it-fse-monit-be-external-info-writer](https://github.com/ministero-salute/it-fse-monit-be-external-info-writer)
@@ -150,3 +140,13 @@ Il microservizio in oggetto ha la responsabilità di gestire l'organigramma con 
 7. [it-fse-prov-fe-react](https://github.com/ministero-salute/it-fse-prov-fe-react)
 
 Single Page Application che rappresenta il front-end del sistema di provisioning.
+
+### Supporto
+
+1. [it-fse-gtw-tools](https://github.com/ministero-salute/it-fse-gtw-tools)
+
+Il repository in oggetto contiene i tools di supporto al corretto utilizzo del FSE2.0.
+
+2. [it-fse-gtw-tools](https://github.com/ministero-salute/it-fse-gtw-test-container)
+
+Il repository in oggetto contiene containers che consentono di avviare istanze locali delle entità presenti sul Fascicolo Sanitario Elettronico 2.0.
