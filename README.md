@@ -60,22 +60,22 @@ Il microservizio in oggetto contiene i tools di supporto al corretto utilizzo de
 
 
 
-### Gateway Front-end (microservices and SPA)
-1. [it-fse-monit-be-kpi-reader](https://github.com/ministero-salute/it-fse-monit-be-kpi-reader)
+### Monitoring
+1. [it-fse-monit-be-external-info-writer](https://github.com/ministero-salute/it-fse-monit-be-external-info-writer)
+
+Il microservizio espone un'API REST pubblica e consente la fornitura dei dati circa le indicizzazioni e le prestazioni relative alle strutture sanitarie.
+
+2. [it-fse-monit-be-kpi-reader](https://github.com/ministero-salute/it-fse-monit-be-kpi-reader)
 
 Il microservizio espone una REST API che consente di interrogare i KPI generati.
 
-2. [it-fse-monit-be-kpi-writer](https://github.com/ministero-salute/it-fse-monit-be-kpi-writer)
+3. [it-fse-monit-be-kpi-writer](https://github.com/ministero-salute/it-fse-monit-be-kpi-writer)
 
-Il microservizio ha la responsabilità di generare i KPI a partire dai log strutturati e persisterli su database.
+Il microservizio genera gli indicatori di performance a partire dai dati forniti sulle prestazioni e sulle indicizzazioni e nel rispetto delle regole di calcolo definite dal decreto riparto.
 
-3. [it-fse-monit-be-report-reader](https://github.com/ministero-salute/it-fse-monit-be-report-reader)
+4. [it-fse-monit-be-report-reader](https://github.com/ministero-salute/it-fse-monit-be-report-reader)
 
-Il microservizio espone una REST API che consente di recuperare i report generati.
-
-4. [it-fse-monit-be-report-writer](https://github.com/ministero-salute/it-fse-monit-be-report-writer)
-
-Il microservizio ha la responsabilità di generare i report a partire dai KPI e persisterli su database.
+Il microservizio espone una REST API che consente di generare file di reportistica per rendicontazione sui KPI in formato `PDF` e `CSV`.
 
 5. [it-fse-monit-fe-react](https://github.com/ministero-salute/it-fse-monit-fe-react)
 
