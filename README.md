@@ -141,6 +141,39 @@ Il microservizio in oggetto ha la responsabilità di gestire l'organigramma con 
 
 Single Page Application che rappresenta il front-end del sistema di provisioning.
 
+### FTS - Terminology System
+1. [it-fse-gtw-exporter](https://github.com/ministero-salute/it-fse-gtw-exporter)
+
+Il microservizio in oggetto ha la responsabilità di esportare sul repository https://github.com/ministero-salute/it-fse-catalogs gli artefatti sintattici, semantici e terminologici usati dal Gateway.
+
+2. [it-fse-srv-converter](https://github.com/ministero-salute/it-fse-srv-converter)
+
+Il microservizio in oggetto ha la responsabilità di convertire una terminologia nei formati CUSTOM_CSV, CUSTOM_JSON, FHIR_R4_JSON e FHIR_R4_XML.
+
+3. [it-fse-srv-dictionary](https://github.com/ministero-salute/it-fse-srv-dictionary)
+
+Il microservizio in oggetto ha la responsabilità di esporre le api di authoring per l'inserimento di terminologie sul Terminology Server.
+
+4. [it-fse-srv-policy-manager](https://github.com/ministero-salute/it-fse-srv-policy-manager)
+
+Il microservizio in oggetto ha la responsabilità di censire gli utenti del terminology server e di notificarli quando avviene un cambiamento sui terminology artifact.
+
+5. [it-fse-srv-predictive-maintainer](https://github.com/ministero-salute/it-fse-srv-predictive-maintainer)
+
+Il microservizio in oggetto ha la responsabilità di creare un Codesystem in stato draft sul Terminology Server a partire dalle loggate strutturate emesse dal Gateway.
+
+6. [it-fse-srv-query](https://github.com/ministero-salute/it-fse-srv-query)
+
+Il microservizio in oggetto ha la responsabilità di interfacciarsi con il Terminology Server in FHIR.
+
+7. [it-fse-srv-terminology-server](https://github.com/ministero-salute/it-fse-srv-terminology-server)
+
+Il microservizio in oggetto ospita il Terminology Server FHIR.
+
+8. [it-fse-prov-be-notifier](https://github.com/ministero-salute/it-fse-prov-be-notifier)
+
+Il microservizio in oggetto ha la responsabilità di notificare per email all'Attore di interesse il verificarsi di un evento.
+
 ### Supporto
 
 1. [it-fse-gtw-tools](https://github.com/ministero-salute/it-fse-gtw-tools)
