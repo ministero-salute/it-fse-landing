@@ -147,6 +147,6 @@ Single Page Application che rappresenta il front-end del sistema di provisioning
 
 Il repository in oggetto contiene i tools di supporto al corretto utilizzo del FSE2.0.
 
-2. [it-fse-gtw-tools](https://github.com/ministero-salute/it-fse-gtw-test-container)
+2. [it-fse-gtw-test-container](https://github.com/ministero-salute/it-fse-gtw-test-container)
 
 Il repository in oggetto contiene containers che consentono di avviare istanze locali delle entità presenti sul Fascicolo Sanitario Elettronico 2.0.
